@@ -188,8 +188,7 @@ def main() -> None:
                 continue
 
             # ToDo 2: You realize that the three settings 'highlight', 'search-mode', and 'hl-mode' have a lot
-            #  in common. Wrap the common behavior in a class and use this class three times. If you want, you can
-            #  make in an enum 😊.
+            #  in common. Wrap the common behavior in a class and use this class three times.
 
             if raw.startswith(":highlight"):
                 parts = raw.split()
